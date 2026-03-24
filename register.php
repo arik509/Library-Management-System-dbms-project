@@ -39,7 +39,7 @@ include 'bootstrap_head.php';
         <div>
           <span class="brand-chip"><i class="bi bi-person-plus-fill"></i> Join the portal</span>
           <h2 class="hero-title mt-4 mb-3">Create an account</h2>
-          <p class="hero-subtitle">Register students, teachers, or admins using the redesigned dark academic interface.</p>
+          <p class="hero-subtitle">Create accounts for students, teachers, or admins to access the library management system.</p>
         </div>
         <ul class="feature-list">
           <li><span class="feature-icon"><i class="bi bi-person-badge"></i></span><span>Unified users table with role-based access.</span></li>

@@ -9,7 +9,8 @@ include 'bootstrap_head.php';
         <div>
           <span class="brand-chip"><i class="bi bi-stars"></i> Premium Dark Interface</span>
           <h1 class="hero-title mt-4 mb-3">Library Management System</h1>
-          <p class="hero-subtitle">A dark glassmorphism interface for your DBMS project with a cleaner academic look and better presentation feel.</p>
+          <p class="hero-subtitle">Manage books, users, issues, and requests through one centralized library management portal.
+</p>
         </div>
         <ul class="feature-list">
           <li><span class="feature-icon"><i class="bi bi-shield-check"></i></span><span>Role-based login for admin, student, and teacher.</span></li>

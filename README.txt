@@ -5,8 +5,9 @@ How to run
 2. Start Apache and MySQL.
 3. Copy the folder lms_project to: C:/xampp/htdocs/lms_project
 4. Open phpMyAdmin.
-5. Create/import the database by running schema.sql.
-6. Open: http://localhost/lms_project/index.php
+5. Create a database named "library_admin_dib".
+6. Create/import the database by running schema.sql.
+7. Open: http://localhost/lms_project/index.php
 
 Default test accounts after running schema.sql
 Admin: admin@test.com / admin123
