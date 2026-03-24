@@ -6,9 +6,9 @@ $homeLink = 'index.php';
 if ($userType === 'Admin') $homeLink = 'admin_dashboard.php';
 if ($userType === 'Student' || $userType === 'Teacher') $homeLink = 'student_dashboard.php';
 ?>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="<?php echo $homeLink; ?>">LMS</a>
+    <a class="navbar-brand fw-bold" href="<?php echo $homeLink; ?>"><i class="bi bi-journal-bookmark-fill me-2"></i>LMS</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,8 +29,10 @@ if ($userType === 'Student' || $userType === 'Teacher') $homeLink = 'student_das
           <li class="nav-item"><a class="nav-link" href="profile.php">Profile</a></li>
         <?php endif; ?>
       </ul>
-      <span class="navbar-text text-white me-3"><?php echo htmlspecialchars($userName); ?> (<?php echo htmlspecialchars($userType ?? 'Guest'); ?>)</span>
-      <?php if ($userType): ?><a class="btn btn-light btn-sm" href="logout.php">Logout</a><?php endif; ?>
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge rounded-pill text-bg-light px-3 py-2"><?php echo htmlspecialchars($userName); ?> · <?php echo htmlspecialchars($userType ?? 'Guest'); ?></span>
+        <?php if ($userType): ?><a class="btn btn-light btn-sm" href="logout.php"><i class="bi bi-box-arrow-right me-1"></i>Logout</a><?php endif; ?>
+      </div>
     </div>
   </div>
 </nav>
