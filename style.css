@@ -375,3 +375,19 @@ hr {
     padding: 1.4rem;
   }
 }
+
+.dashboard-card h5,
+.dashboard-card h4,
+.dashboard-card h3,
+.dashboard-card .card-title,
+.dashboard-card a,
+.dashboard-card a h5,
+.dashboard-card a h4,
+.dashboard-card a h3 {
+  color: #ffffff !important;
+}
+
+.dashboard-card p,
+.dashboard-card .text-muted {
+  color: #cbd5e1 !important;
+}
